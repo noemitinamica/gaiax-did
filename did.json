@@ -1,0 +1,21 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:raw.githubusercontent.com:noemitinamica:gaiax-did:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:noemitinamica:gaiax-did:main#key-1",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "PEGA_AQUÍ_EL_VALOR_n",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/noemitinamica/gaiax-did/main/cert.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:noemitinamica:gaiax-did:main#key-1"
+  ]
+}
+
